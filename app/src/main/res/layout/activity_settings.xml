@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/light_theme_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Светлая тема"/>
+
+        <RadioButton
+            android:id="@+id/dark_theme_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Темная тема"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/scroll_view_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Прокрутка вопросов"/>
+
+        <RadioButton
+            android:id="@+id/flip_view_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Переключение вопросов"/>
+    </RadioGroup>
+</LinearLayout>
